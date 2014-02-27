@@ -1,4 +1,4 @@
 language: objective-c
 install: echo
 script:
-  - xcodebuild -project TEDLocalization\ Example/TEDLocalization\ Example.xcodeproj -sdk iphonesimulator7.0 -configuration Debug -destination 'platform=iOS Simulator,OS=7.0,name=iPhone Retina (4-inch)' clean test
+  - xcodebuild -project TEDLocalization\ Example/TEDLocalization\ Example.xcodeproj -sdk iphonesimulator7.0 -configuration Debug -destination 'platform=iOS Simulator,OS=7.0,name=iPhone Retina (4-inch)' -scheme 'TEDLocalization Example' test
