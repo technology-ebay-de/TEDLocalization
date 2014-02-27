@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Easy localization of view controllers and views for iOS'
   s.homepage = 'https://github.com/technology-ebay-de/TEDLocalization'
   s.authors  = { 'Claus Höfele' => 'claus@claushoefele.com' }
-  s.source   = { :git => 'git@github.com:technology-ebay-de/TEDLocalization.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/technology-ebay-de/TEDLocalization.git', :tag => s.version.to_s }
   s.requires_arc = true
 
   s.ios.deployment_target = '5.0'
