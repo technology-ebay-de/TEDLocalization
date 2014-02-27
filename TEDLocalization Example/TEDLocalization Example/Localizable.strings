@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TEDLocalization Example
+
+  Created by Hoefele, Claus on 27.02.14.
+  Copyright (c) 2014 Technology eBay Germany. All rights reserved.
+*/
+
+"NAV_Title" = "Localized Title";
+"SCREEN_Label" = "Localized Label";
+"SCREEN_TextField" = "Localized Text Field";

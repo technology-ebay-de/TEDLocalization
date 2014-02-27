@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CE5BFD18BF39FF00F5377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5BFC18BF39FF00F5377E /* Foundation.framework */; };
+		62CE5BFF18BF39FF00F5377E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5BFE18BF39FF00F5377E /* CoreGraphics.framework */; };
+		62CE5C0118BF39FF00F5377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5C0018BF39FF00F5377E /* UIKit.framework */; };
+		62CE5C0718BF39FF00F5377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C0518BF39FF00F5377E /* InfoPlist.strings */; };
+		62CE5C0918BF39FF00F5377E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C0818BF39FF00F5377E /* main.m */; };
+		62CE5C0D18BF39FF00F5377E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C0C18BF39FF00F5377E /* AppDelegate.m */; };
+		62CE5C1018BF39FF00F5377E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C0E18BF39FF00F5377E /* Main.storyboard */; };
+		62CE5C1318BF39FF00F5377E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C1218BF39FF00F5377E /* ViewController.m */; };
+		62CE5C1518BF39FF00F5377E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C1418BF39FF00F5377E /* Images.xcassets */; };
+		62CE5C1C18BF39FF00F5377E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5C1B18BF39FF00F5377E /* XCTest.framework */; };
+		62CE5C1D18BF39FF00F5377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5BFC18BF39FF00F5377E /* Foundation.framework */; };
+		62CE5C1E18BF39FF00F5377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5C0018BF39FF00F5377E /* UIKit.framework */; };
+		62CE5C2618BF39FF00F5377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C2418BF39FF00F5377E /* InfoPlist.strings */; };
+		62CE5C2818BF39FF00F5377E /* TEDLocalization_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */; };
+		62CE5C3418BF3AC800F5377E /* TEDLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C3318BF3AC800F5377E /* TEDLocalization.m */; };
+		62CE5C3618BF3EF000F5377E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C3518BF3EF000F5377E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62CE5C1F18BF39FF00F5377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62CE5BF118BF39FF00F5377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CE5BF818BF39FF00F5377E;
+			remoteInfo = "TEDLocalization Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62CE5BF918BF39FF00F5377E /* TEDLocalization Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TEDLocalization Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CE5BFC18BF39FF00F5377E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62CE5BFE18BF39FF00F5377E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62CE5C0018BF39FF00F5377E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62CE5C0418BF39FF00F5377E /* TEDLocalization Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEDLocalization Example-Info.plist"; sourceTree = "<group>"; };
+		62CE5C0618BF39FF00F5377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62CE5C0818BF39FF00F5377E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62CE5C0A18BF39FF00F5377E /* TEDLocalization Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEDLocalization Example-Prefix.pch"; sourceTree = "<group>"; };
+		62CE5C0B18BF39FF00F5377E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62CE5C0C18BF39FF00F5377E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62CE5C0F18BF39FF00F5377E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62CE5C1118BF39FF00F5377E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62CE5C1218BF39FF00F5377E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62CE5C1418BF39FF00F5377E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62CE5C1A18BF39FF00F5377E /* TEDLocalization ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TEDLocalization ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CE5C1B18BF39FF00F5377E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62CE5C2318BF39FF00F5377E /* TEDLocalization ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEDLocalization ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		62CE5C2518BF39FF00F5377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEDLocalization_ExampleTests.m; sourceTree = "<group>"; };
+		62CE5C3218BF3AC800F5377E /* TEDLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDLocalization.h; sourceTree = "<group>"; };
+		62CE5C3318BF3AC800F5377E /* TEDLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDLocalization.m; sourceTree = "<group>"; };
+		62CE5C3518BF3EF000F5377E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62CE5BF618BF39FF00F5377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5BFF18BF39FF00F5377E /* CoreGraphics.framework in Frameworks */,
+				62CE5C0118BF39FF00F5377E /* UIKit.framework in Frameworks */,
+				62CE5BFD18BF39FF00F5377E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CE5C1718BF39FF00F5377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5C1C18BF39FF00F5377E /* XCTest.framework in Frameworks */,
+				62CE5C1E18BF39FF00F5377E /* UIKit.framework in Frameworks */,
+				62CE5C1D18BF39FF00F5377E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CE5BF018BF39FF00F5377E = {
+			isa = PBXGroup;
+			children = (
+				62CE5C3118BF3AC800F5377E /* TEDLocalization */,
+				62CE5C0218BF39FF00F5377E /* TEDLocalization Example */,
+				62CE5C2118BF39FF00F5377E /* TEDLocalization ExampleTests */,
+				62CE5BFB18BF39FF00F5377E /* Frameworks */,
+				62CE5BFA18BF39FF00F5377E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62CE5BFA18BF39FF00F5377E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5BF918BF39FF00F5377E /* TEDLocalization Example.app */,
+				62CE5C1A18BF39FF00F5377E /* TEDLocalization ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62CE5BFB18BF39FF00F5377E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5BFC18BF39FF00F5377E /* Foundation.framework */,
+				62CE5BFE18BF39FF00F5377E /* CoreGraphics.framework */,
+				62CE5C0018BF39FF00F5377E /* UIKit.framework */,
+				62CE5C1B18BF39FF00F5377E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62CE5C0218BF39FF00F5377E /* TEDLocalization Example */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5C0B18BF39FF00F5377E /* AppDelegate.h */,
+				62CE5C0C18BF39FF00F5377E /* AppDelegate.m */,
+				62CE5C0E18BF39FF00F5377E /* Main.storyboard */,
+				62CE5C1118BF39FF00F5377E /* ViewController.h */,
+				62CE5C1218BF39FF00F5377E /* ViewController.m */,
+				62CE5C1418BF39FF00F5377E /* Images.xcassets */,
+				62CE5C0318BF39FF00F5377E /* Supporting Files */,
+				62CE5C3518BF3EF000F5377E /* Localizable.strings */,
+			);
+			path = "TEDLocalization Example";
+			sourceTree = "<group>";
+		};
+		62CE5C0318BF39FF00F5377E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5C0418BF39FF00F5377E /* TEDLocalization Example-Info.plist */,
+				62CE5C0518BF39FF00F5377E /* InfoPlist.strings */,
+				62CE5C0818BF39FF00F5377E /* main.m */,
+				62CE5C0A18BF39FF00F5377E /* TEDLocalization Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62CE5C2118BF39FF00F5377E /* TEDLocalization ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */,
+				62CE5C2218BF39FF00F5377E /* Supporting Files */,
+			);
+			path = "TEDLocalization ExampleTests";
+			sourceTree = "<group>";
+		};
+		62CE5C2218BF39FF00F5377E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5C2318BF39FF00F5377E /* TEDLocalization ExampleTests-Info.plist */,
+				62CE5C2418BF39FF00F5377E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62CE5C3118BF3AC800F5377E /* TEDLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5C3218BF3AC800F5377E /* TEDLocalization.h */,
+				62CE5C3318BF3AC800F5377E /* TEDLocalization.m */,
+			);
+			name = TEDLocalization;
+			path = ../TEDLocalization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62CE5BF818BF39FF00F5377E /* TEDLocalization Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CE5C2B18BF39FF00F5377E /* Build configuration list for PBXNativeTarget "TEDLocalization Example" */;
+			buildPhases = (
+				62CE5BF518BF39FF00F5377E /* Sources */,
+				62CE5BF618BF39FF00F5377E /* Frameworks */,
+				62CE5BF718BF39FF00F5377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TEDLocalization Example";
+			productName = "TEDLocalization Example";
+			productReference = 62CE5BF918BF39FF00F5377E /* TEDLocalization Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62CE5C1918BF39FF00F5377E /* TEDLocalization ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CE5C2E18BF39FF00F5377E /* Build configuration list for PBXNativeTarget "TEDLocalization ExampleTests" */;
+			buildPhases = (
+				62CE5C1618BF39FF00F5377E /* Sources */,
+				62CE5C1718BF39FF00F5377E /* Frameworks */,
+				62CE5C1818BF39FF00F5377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62CE5C2018BF39FF00F5377E /* PBXTargetDependency */,
+			);
+			name = "TEDLocalization ExampleTests";
+			productName = "TEDLocalization ExampleTests";
+			productReference = 62CE5C1A18BF39FF00F5377E /* TEDLocalization ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62CE5BF118BF39FF00F5377E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Technology eBay Germany";
+				TargetAttributes = {
+					62CE5C1918BF39FF00F5377E = {
+						TestTargetID = 62CE5BF818BF39FF00F5377E;
+					};
+				};
+			};
+			buildConfigurationList = 62CE5BF418BF39FF00F5377E /* Build configuration list for PBXProject "TEDLocalization Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62CE5BF018BF39FF00F5377E;
+			productRefGroup = 62CE5BFA18BF39FF00F5377E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62CE5BF818BF39FF00F5377E /* TEDLocalization Example */,
+				62CE5C1918BF39FF00F5377E /* TEDLocalization ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CE5BF718BF39FF00F5377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5C1518BF39FF00F5377E /* Images.xcassets in Resources */,
+				62CE5C3618BF3EF000F5377E /* Localizable.strings in Resources */,
+				62CE5C0718BF39FF00F5377E /* InfoPlist.strings in Resources */,
+				62CE5C1018BF39FF00F5377E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CE5C1818BF39FF00F5377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5C2618BF39FF00F5377E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CE5BF518BF39FF00F5377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5C1318BF39FF00F5377E /* ViewController.m in Sources */,
+				62CE5C0D18BF39FF00F5377E /* AppDelegate.m in Sources */,
+				62CE5C3418BF3AC800F5377E /* TEDLocalization.m in Sources */,
+				62CE5C0918BF39FF00F5377E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CE5C1618BF39FF00F5377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5C2818BF39FF00F5377E /* TEDLocalization_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62CE5C2018BF39FF00F5377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62CE5BF818BF39FF00F5377E /* TEDLocalization Example */;
+			targetProxy = 62CE5C1F18BF39FF00F5377E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62CE5C0518BF39FF00F5377E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CE5C0618BF39FF00F5377E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62CE5C0E18BF39FF00F5377E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CE5C0F18BF39FF00F5377E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62CE5C2418BF39FF00F5377E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CE5C2518BF39FF00F5377E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62CE5C2918BF39FF00F5377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62CE5C2A18BF39FF00F5377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62CE5C2C18BF39FF00F5377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEDLocalization Example/TEDLocalization Example-Prefix.pch";
+				INFOPLIST_FILE = "TEDLocalization Example/TEDLocalization Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62CE5C2D18BF39FF00F5377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEDLocalization Example/TEDLocalization Example-Prefix.pch";
+				INFOPLIST_FILE = "TEDLocalization Example/TEDLocalization Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62CE5C2F18BF39FF00F5377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TEDLocalization Example.app/TEDLocalization Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEDLocalization Example/TEDLocalization Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TEDLocalization ExampleTests/TEDLocalization ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62CE5C3018BF39FF00F5377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TEDLocalization Example.app/TEDLocalization Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TEDLocalization Example/TEDLocalization Example-Prefix.pch";
+				INFOPLIST_FILE = "TEDLocalization ExampleTests/TEDLocalization ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CE5BF418BF39FF00F5377E /* Build configuration list for PBXProject "TEDLocalization Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CE5C2918BF39FF00F5377E /* Debug */,
+				62CE5C2A18BF39FF00F5377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CE5C2B18BF39FF00F5377E /* Build configuration list for PBXNativeTarget "TEDLocalization Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CE5C2C18BF39FF00F5377E /* Debug */,
+				62CE5C2D18BF39FF00F5377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62CE5C2E18BF39FF00F5377E /* Build configuration list for PBXNativeTarget "TEDLocalization ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CE5C2F18BF39FF00F5377E /* Debug */,
+				62CE5C3018BF39FF00F5377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62CE5BF118BF39FF00F5377E /* Project object */;
+}
