@@ -9,3 +9,4 @@
 "NAV_Title" = "Localized Title";
 "SCREEN_Label" = "Localized Label";
 "SCREEN_TextField" = "Localized Text Field";
+"SCREEN_Button" = "Localized Button";

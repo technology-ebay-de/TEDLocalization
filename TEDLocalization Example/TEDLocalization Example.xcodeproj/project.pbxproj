@@ -20,7 +20,7 @@
 		62CE5C1D18BF39FF00F5377E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5BFC18BF39FF00F5377E /* Foundation.framework */; };
 		62CE5C1E18BF39FF00F5377E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CE5C0018BF39FF00F5377E /* UIKit.framework */; };
 		62CE5C2618BF39FF00F5377E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C2418BF39FF00F5377E /* InfoPlist.strings */; };
-		62CE5C2818BF39FF00F5377E /* TEDLocalization_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */; };
+		62CE5C2818BF39FF00F5377E /* TEDLocalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C2718BF39FF00F5377E /* TEDLocalizationTests.m */; };
 		62CE5C3418BF3AC800F5377E /* TEDLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5C3318BF3AC800F5377E /* TEDLocalization.m */; };
 		62CE5C3618BF3EF000F5377E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5C3518BF3EF000F5377E /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -54,7 +54,7 @@
 		62CE5C1B18BF39FF00F5377E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		62CE5C2318BF39FF00F5377E /* TEDLocalization ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEDLocalization ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		62CE5C2518BF39FF00F5377E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEDLocalization_ExampleTests.m; sourceTree = "<group>"; };
+		62CE5C2718BF39FF00F5377E /* TEDLocalizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEDLocalizationTests.m; sourceTree = "<group>"; };
 		62CE5C3218BF3AC800F5377E /* TEDLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDLocalization.h; sourceTree = "<group>"; };
 		62CE5C3318BF3AC800F5377E /* TEDLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDLocalization.m; sourceTree = "<group>"; };
 		62CE5C3518BF3EF000F5377E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		62CE5C2118BF39FF00F5377E /* TEDLocalization ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				62CE5C2718BF39FF00F5377E /* TEDLocalization_ExampleTests.m */,
+				62CE5C2718BF39FF00F5377E /* TEDLocalizationTests.m */,
 				62CE5C2218BF39FF00F5377E /* Supporting Files */,
 			);
 			path = "TEDLocalization ExampleTests";
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CE5C2818BF39FF00F5377E /* TEDLocalization_ExampleTests.m in Sources */,
+				62CE5C2818BF39FF00F5377E /* TEDLocalizationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
