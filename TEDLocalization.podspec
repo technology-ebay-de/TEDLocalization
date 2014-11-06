@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'TEDLocalization'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'MIT'
   s.summary  = 'Easy localization of view controllers and views for iOS'
   s.homepage = 'https://github.com/technology-ebay-de/TEDLocalization'
