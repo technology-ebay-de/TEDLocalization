@@ -58,8 +58,9 @@
 
 + (void)localizeView:(UIView *)view
 {
-    if (view.accessibilityLabel) {
-        view.accessibilityLabel = Localize(view.accessibilityLabel);
+    NSString *localizedAccessibilityLabel = Localize(view.accessibilityLabel);
+    if (![view.accessibilityLabel isEqualToString:localizedAccessibilityLabel]) {
+        view.accessibilityLabel = localizedAccessibilityLabel;
     }
     
     if ([view isKindOfClass:UIButton.class]) {
