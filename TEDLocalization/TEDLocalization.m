@@ -25,7 +25,7 @@
 
 #import "TEDLocalization.h"
 
-#define Localize(value) NSLocalizedString(value, nil)
+#define Localize(value) value.length ? NSLocalizedString(value, nil) : value
 
 @implementation TEDLocalization
 
